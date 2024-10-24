@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="myBeanPostProcessor" class="org.hl.springlearn.beanlivedemo.simple.MyBeanPostProcessor"/>
+    <bean name="personBean" class="org.hl.springlearn.beanlivedemo.simple.PersonBean" init-method="init"
+          destroy-method="destroyMethod">
+        <property name="idCard" value="990407"/>
+        <property name="name" value="张三"/>
+    </bean>
+
+</beans>
