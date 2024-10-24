@@ -1,4 +1,4 @@
-package org.hl.springlearn.iocdemo;
+package org.hl.springlearn.iocdemo.simple;
 
 import lombok.extern.slf4j.Slf4j;
 

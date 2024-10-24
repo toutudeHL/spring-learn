@@ -1,4 +1,4 @@
-package org.hl.springlearn.iocdemo;
+package org.hl.springlearn.iocdemo.simple;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -22,7 +22,7 @@ public class ResourceLoader {
         log.info("资源加载");
         Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>(16);
         Properties properties = new Properties();
-        try (InputStream inputStream = ResourceLoader.class.getResourceAsStream("/beans.properties")) {
+        try (InputStream inputStream = ResourceLoader.class.getResourceAsStream("/iocdemo/config.properties")) {
             properties.load(inputStream);
             for (String key : properties.stringPropertyNames()) {
                 log.info("加载-beanName:{}", key);

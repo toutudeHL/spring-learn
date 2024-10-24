@@ -1,6 +1,8 @@
 package org.hl.springlearn.iocdemo;
 
 import lombok.extern.slf4j.Slf4j;
+import org.hl.springlearn.iocdemo.simple.BeanDao;
+import org.hl.springlearn.iocdemo.simple.BeanFactory;
 
 /**
  * @author houlei
