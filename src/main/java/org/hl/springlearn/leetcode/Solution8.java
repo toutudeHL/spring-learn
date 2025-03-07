@@ -54,7 +54,7 @@ package org.hl.springlearn.leetcode;
  * <p>0 <= s.length <= 200
  * <p>s 由英文字母（大写和小写）、数字（0-9）、' '、'+'、'-' 和 '.' 组成
  */
-class MyAtoi8 {
+class Solution8 {
 
     public static void main(String[] args) {
         System.out.println(myAtoi("42"));

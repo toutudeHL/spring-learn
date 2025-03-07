@@ -8,7 +8,7 @@ import java.util.Arrays;
  * <p>返回这三个数的和。
  * <p>假定每组输入只存在恰好一个解。
  */
-class ThreeSumClosest16 {
+class Solution16 {
 
     public static void main(String[] args) {
         // System.out.println(threeSumClosest(new int[]{-1, 2, 1, -4}, 1));

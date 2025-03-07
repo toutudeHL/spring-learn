@@ -24,7 +24,7 @@ package org.hl.springlearn.leetcode;
  * <p>0 <= Node.val <= 9
  * <p>题目数据保证列表表示的数字不含前导零
  */
-class AddTwoNumbers2 {
+class Solution2 {
 
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));

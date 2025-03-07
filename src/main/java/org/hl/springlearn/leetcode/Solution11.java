@@ -20,7 +20,7 @@ package org.hl.springlearn.leetcode;
  * <p>2 <= n <= 10^5
  * <p>0 <= height[i] <= 10^4
  */
-class MaxArea11 {
+class Solution11 {
 
     public static void main(String[] args) {
         System.out.println(maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));

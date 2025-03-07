@@ -47,7 +47,7 @@ package org.hl.springlearn.leetcode;
  * 提示：
  * <p>1 <= num <= 3999
  */
-class IntToRoman12 {
+class Solution12 {
 
     public static void main(String[] args) {
         System.out.println(intToRoman(3749));

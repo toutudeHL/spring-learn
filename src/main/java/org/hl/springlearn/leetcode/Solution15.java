@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * 注意：答案中不可以包含重复的三元组。
  */
-class ThreeSum15 {
+class Solution15 {
 
     public static void main(String[] args) {
         System.out.println(threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
