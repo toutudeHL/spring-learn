@@ -25,5 +25,6 @@ public class ListNode {
             System.out.print(listNode.val);
             listNode = listNode.next;
         }
+        System.out.println();
     }
 }
