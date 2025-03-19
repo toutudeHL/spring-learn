@@ -54,10 +54,8 @@ class Solution39 {
      */
     public static List<List<Integer>> combinationSum1(int[] candidates, int target) {
         ArrayList<List<Integer>> result = new ArrayList<>();
-        ArrayList<Integer> single = new ArrayList<>();
         Arrays.sort(candidates);
-        int start = 0;
-        backtrack(candidates, target, result, single, start);
+        backtrack(candidates, target, result, new ArrayList<>(), 0);
         return result;
     }
 
