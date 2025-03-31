@@ -36,5 +36,4 @@ class Solution66 {
         return digits;
     }
 
-
 }
