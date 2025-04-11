@@ -4,22 +4,22 @@ package org.hl.springlearn.leetcode;
  * 通用简单链表节点
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
 
-    void print() {
+    public void print() {
         ListNode listNode = this;
         while (listNode != null) {
             System.out.print(listNode.val);
