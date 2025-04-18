@@ -48,5 +48,4 @@ class Solution98 {
         return validBST(lower, root.val, root.left) && validBST(root.val, upper, root.right);
     }
 
-
 }
