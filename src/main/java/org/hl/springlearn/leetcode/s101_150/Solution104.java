@@ -3,8 +3,9 @@ package org.hl.springlearn.leetcode.s101_150;
 import org.hl.springlearn.leetcode.TreeNode;
 
 /**
- * 二叉树的锯齿形层序遍历
- * <p>给你二叉树的根节点 root ，返回其节点值的 锯齿形层序遍历 。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。
+ * 二叉树的最大深度
+ * <p>给定一个二叉树 root ，返回其最大深度。
+ * <p>二叉树的 最大深度 是指从根节点到最远叶子节点的最长路径上的节点数。
  */
 class Solution104 {
 
