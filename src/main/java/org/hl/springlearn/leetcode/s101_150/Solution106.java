@@ -14,10 +14,10 @@ class Solution106 {
     Map<Integer, Integer> inMap;
 
     public static void main(String[] args) {
-        Solution106 Solution = new Solution106();
+        Solution106 solution = new Solution106();
         int[] inorder = {9, 3, 15, 20, 7};
         int[] postorder = {9, 15, 7, 20, 3};
-        System.out.println(Solution.buildTree(inorder, postorder));
+        System.out.println(solution.buildTree(inorder, postorder));
     }
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {

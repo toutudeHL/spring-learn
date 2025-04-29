@@ -16,10 +16,10 @@ class Solution105 {
     private int in = 0;
 
     public static void main(String[] args) {
-        Solution105 Solution = new Solution105();
+        Solution105 solution = new Solution105();
         int[] preorder = {3, 9, 20, 15, 7};
         int[] inorder = {9, 3, 15, 20, 7};
-        System.out.println(Solution.buildTree(preorder, inorder));
+        System.out.println(solution.buildTree(preorder, inorder));
     }
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {

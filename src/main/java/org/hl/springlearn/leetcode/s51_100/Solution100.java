@@ -10,10 +10,10 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution100 {
 
     public static void main(String[] args) {
-        Solution100 Solution100 = new Solution100();
+        Solution100 solution = new Solution100();
         TreeNode p = new TreeNode(1, new TreeNode(2), new TreeNode(3));
         TreeNode q = new TreeNode(1, new TreeNode(2), new TreeNode(3));
-        System.out.println(Solution100.isSameTree(p, q));
+        System.out.println(solution.isSameTree(p, q));
     }
 
     public boolean isSameTree(TreeNode p, TreeNode q) {

@@ -11,8 +11,8 @@ import java.util.List;
 class Solution119 {
 
     public static void main(String[] args) {
-        Solution119 Solution = new Solution119();
-        System.out.println(Solution.getRow(5));
+        Solution119 solution = new Solution119();
+        System.out.println(solution.getRow(5));
     }
 
     public List<Integer> getRow(int rowIndex) {

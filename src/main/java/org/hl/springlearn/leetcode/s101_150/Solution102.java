@@ -12,11 +12,11 @@ import java.util.List;
 class Solution102 {
 
     public static void main(String[] args) {
-        Solution102 Solution102 = new Solution102();
+        Solution102 solution = new Solution102();
         TreeNode root = new TreeNode(1,
                 new TreeNode(2, new TreeNode(3), new TreeNode(4)),
                 new TreeNode(2, new TreeNode(4), new TreeNode(3)));
-        System.out.println(Solution102.levelOrder(root));
+        System.out.println(solution.levelOrder(root));
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {

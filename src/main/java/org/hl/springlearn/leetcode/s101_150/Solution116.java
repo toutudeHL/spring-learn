@@ -19,12 +19,12 @@ import org.hl.springlearn.leetcode.Node;
 class Solution116 {
 
     public static void main(String[] args) {
-        Solution116 Solution = new Solution116();
+        Solution116 solution = new Solution116();
         Node root = new Node(1,
                 new Node(2, new Node(4), new Node(5), null),
                 new Node(3, new Node(6), new Node(7), null),
                 null);
-        System.out.println(Solution.connect(root));
+        System.out.println(solution.connect(root));
     }
 
     public Node connect(Node root) {

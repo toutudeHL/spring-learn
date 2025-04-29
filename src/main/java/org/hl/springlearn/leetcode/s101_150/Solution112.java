@@ -10,11 +10,11 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution112 {
 
     public static void main(String[] args) {
-        Solution112 Solution = new Solution112();
+        Solution112 solution = new Solution112();
         TreeNode root = new TreeNode(5,
                 new TreeNode(4, new TreeNode(11, new TreeNode(7), new TreeNode(2)), null),
                 new TreeNode(8, new TreeNode(13), new TreeNode(4, null, new TreeNode(1))));
-        System.out.println(Solution.hasPathSum(root, 22));
+        System.out.println(solution.hasPathSum(root, 22));
     }
 
     public boolean hasPathSum(TreeNode root, int targetSum) {

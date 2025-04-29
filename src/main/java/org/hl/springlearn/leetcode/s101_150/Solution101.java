@@ -9,11 +9,11 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution101 {
 
     public static void main(String[] args) {
-        Solution101 Solution101 = new Solution101();
+        Solution101 solution = new Solution101();
         TreeNode root = new TreeNode(1,
                 new TreeNode(2, new TreeNode(3), new TreeNode(4)),
                 new TreeNode(2, new TreeNode(4), new TreeNode(3)));
-        System.out.println(Solution101.isSymmetric(root));
+        System.out.println(solution.isSymmetric(root));
     }
 
     public boolean isSymmetric(TreeNode root) {

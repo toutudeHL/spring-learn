@@ -9,8 +9,8 @@ package org.hl.springlearn.leetcode.s101_150;
 class Solution121 {
 
     public static void main(String[] args) {
-        Solution121 Solution = new Solution121();
-        System.out.println(Solution.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
+        Solution121 solution = new Solution121();
+        System.out.println(solution.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
     }
 
     public int maxProfit(int[] prices) {

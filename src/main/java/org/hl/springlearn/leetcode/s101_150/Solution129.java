@@ -13,11 +13,11 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution129 {
 
     public static void main(String[] args) {
-        Solution129 Solution = new Solution129();
+        Solution129 solution = new Solution129();
         TreeNode root = new TreeNode(4,
                 new TreeNode(9, new TreeNode(5), new TreeNode(1)),
                 new TreeNode(0));
-        System.out.println(Solution.sumNumbers(root));
+        System.out.println(solution.sumNumbers(root));
     }
 
     public int sumNumbers(TreeNode root) {

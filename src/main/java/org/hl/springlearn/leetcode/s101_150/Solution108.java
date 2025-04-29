@@ -9,8 +9,8 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution108 {
 
     public static void main(String[] args) {
-        Solution108 Solution = new Solution108();
-        System.out.println(Solution.sortedArrayToBST(new int[]{-10, -3, 0, 5, 9}));
+        Solution108 solution = new Solution108();
+        System.out.println(solution.sortedArrayToBST(new int[]{-10, -3, 0, 5, 9}));
     }
 
     public TreeNode sortedArrayToBST(int[] nums) {

@@ -13,11 +13,11 @@ import java.util.List;
 class Solution113 {
 
     public static void main(String[] args) {
-        Solution113 Solution = new Solution113();
+        Solution113 solution = new Solution113();
         TreeNode root = new TreeNode(5,
                 new TreeNode(4, new TreeNode(11, new TreeNode(7), new TreeNode(2)), null),
                 new TreeNode(8, new TreeNode(13), new TreeNode(4, null, new TreeNode(5))));
-        System.out.println(Solution.pathSum(root, 1));
+        System.out.println(solution.pathSum(root, 1));
     }
 
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {

@@ -10,11 +10,11 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution104 {
 
     public static void main(String[] args) {
-        Solution104 Solution = new Solution104();
+        Solution104 solution = new Solution104();
         TreeNode root = new TreeNode(1,
                 new TreeNode(2, new TreeNode(3), new TreeNode(4)),
                 new TreeNode(2, new TreeNode(4), new TreeNode(3)));
-        System.out.println(Solution.maxDepth(root));
+        System.out.println(solution.maxDepth(root));
     }
 
     public int maxDepth(TreeNode root) {

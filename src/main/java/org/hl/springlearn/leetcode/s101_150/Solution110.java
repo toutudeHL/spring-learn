@@ -10,9 +10,9 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution110 {
 
     public static void main(String[] args) {
-        Solution110 Solution = new Solution110();
+        Solution110 solution = new Solution110();
         TreeNode root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
-        System.out.println(Solution.isBalanced(root));
+        System.out.println(solution.isBalanced(root));
     }
 
     public boolean isBalanced(TreeNode root) {

@@ -9,8 +9,8 @@ package org.hl.springlearn.leetcode.s101_150;
 class Solution125 {
 
     public static void main(String[] args) {
-        Solution125 Solution = new Solution125();
-        System.out.println(Solution.isPalindrome("amanaplanacanalpanama"));
+        Solution125 solution = new Solution125();
+        System.out.println(solution.isPalindrome("amanaplanacanalpanama"));
     }
 
     public boolean isPalindrome(String s) {

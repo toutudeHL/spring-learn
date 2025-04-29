@@ -11,9 +11,9 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution111 {
 
     public static void main(String[] args) {
-        Solution111 Solution = new Solution111();
+        Solution111 solution = new Solution111();
         TreeNode root = new TreeNode(2, null, new TreeNode(3, null, new TreeNode(4, null, new TreeNode(5, null, new TreeNode(6)))));
-        System.out.println(Solution.minDepth(root));
+        System.out.println(solution.minDepth(root));
     }
 
     public int minDepth(TreeNode root) {

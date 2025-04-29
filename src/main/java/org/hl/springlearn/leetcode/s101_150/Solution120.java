@@ -12,13 +12,13 @@ import java.util.List;
 class Solution120 {
 
     public static void main(String[] args) {
-        Solution120 Solution = new Solution120();
+        Solution120 solution = new Solution120();
         List<List<Integer>> triangle = new ArrayList<>();
         triangle.add(List.of(2));
         triangle.add(List.of(3, 4));
         triangle.add(List.of(6, 5, 7));
         triangle.add(List.of(4, 1, 8, 3));
-        System.out.println(Solution.minimumTotal(triangle));
+        System.out.println(solution.minimumTotal(triangle));
     }
 
     public int minimumTotal(List<List<Integer>> triangle) {

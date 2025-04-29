@@ -16,12 +16,12 @@ class Solution114 {
     List<TreeNode> list = new LinkedList<>();
 
     public static void main(String[] args) {
-        Solution114 Solution = new Solution114();
+        Solution114 solution = new Solution114();
         TreeNode root = new TreeNode(1,
                 new TreeNode(2, new TreeNode(3), new TreeNode(4)),
                 new TreeNode(5, null, new TreeNode(6)));
         root = new TreeNode(0);
-        Solution.flatten(root);
+        solution.flatten(root);
     }
 
     public void flatten(TreeNode root) {

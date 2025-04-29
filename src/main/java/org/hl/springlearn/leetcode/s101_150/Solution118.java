@@ -11,8 +11,8 @@ import java.util.List;
 class Solution118 {
 
     public static void main(String[] args) {
-        Solution118 Solution = new Solution118();
-        System.out.println(Solution.generate(5));
+        Solution118 solution = new Solution118();
+        System.out.println(solution.generate(5));
     }
 
     public List<List<Integer>> generate(int numRows) {

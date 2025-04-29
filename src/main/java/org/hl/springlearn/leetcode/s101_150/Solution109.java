@@ -13,9 +13,9 @@ import java.util.List;
 class Solution109 {
 
     public static void main(String[] args) {
-        Solution109 Solution = new Solution109();
+        Solution109 solution = new Solution109();
         ListNode head = new ListNode(-10, new ListNode(-3, new ListNode(0, new ListNode(5, new ListNode(9)))));
-        System.out.println(Solution.sortedListToBST(head));
+        System.out.println(solution.sortedListToBST(head));
     }
 
     public TreeNode sortedListToBST(ListNode head) {

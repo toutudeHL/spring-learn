@@ -13,9 +13,9 @@ import org.hl.springlearn.leetcode.TreeNode;
 class Solution98 {
 
     public static void main(String[] args) {
-        Solution98 solution98 = new Solution98();
+        Solution98 solution = new Solution98();
         TreeNode root = new TreeNode(5, new TreeNode(4), new TreeNode(6, new TreeNode(3), new TreeNode(7)));
-        System.out.println(solution98.isValidBST(root));
+        System.out.println(solution.isValidBST(root));
     }
 
     TreeNode max;

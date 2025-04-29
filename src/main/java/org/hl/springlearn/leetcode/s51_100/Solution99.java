@@ -11,9 +11,9 @@ class Solution99 {
     TreeNode max, node1, node2;
 
     public static void main(String[] args) {
-        Solution99 Solution99 = new Solution99();
+        Solution99 solution = new Solution99();
         TreeNode root = new TreeNode(3, new TreeNode(1), new TreeNode(4, new TreeNode(2), null));
-        Solution99.recoverTree(root);
+        solution.recoverTree(root);
     }
 
     public void recoverTree(TreeNode root) {
